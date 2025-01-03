@@ -1,0 +1,44 @@
+:root {
+    --bs-primary: #3498db;
+    --bs-primary-rgb: 52, 152, 219;
+}
+
+body {
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(52, 152, 219, 0.05)), 
+                url('https://cdn.hero.page/wallpapers/121fb583-c65c-4988-bd92-06e0e9b0ed2e-minimalist-mountain-peaks-wallpaper-wallpaper-1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.login-container, .container-fluid {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#dashboardContainer {
+    display: none;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
